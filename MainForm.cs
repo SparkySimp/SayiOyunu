@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace SparkySimp.NTP34SayıOyunu
 {
@@ -78,6 +79,7 @@ namespace SparkySimp.NTP34SayıOyunu
                 {
                     ((Control)sender).BackColor = Color.LimeGreen;
                     lastClickedButtonNum++;
+                    SystemSounds.Beep.Play();
                 }
                 else
                 {
